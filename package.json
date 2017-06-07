@@ -1,0 +1,19 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "Return a JSON containing the time passed in argument parsed to unixtime or Month, Day Year format ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "timestamp",
+    "freecodecamp",
+    "learning"
+  ],
+  "author": "lelBil https://github.com/lelbil/",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
