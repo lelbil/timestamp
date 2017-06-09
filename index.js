@@ -1,7 +1,7 @@
 var express = require('express')
 
 var app = express();
-const PORT = process.env.port || 8080;
+const PORT = process.env.PORT || 8080;
 
 app.get("/", function(req, res) {
 	//res.writeHead(200, {"Content-Type": "text/html"});
