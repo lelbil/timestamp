@@ -4,6 +4,7 @@
   "description": "Return a JSON containing the time passed in argument parsed to unixtime or Month, Day Year format ",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
