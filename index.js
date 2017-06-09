@@ -1,6 +1,7 @@
 var express = require('express')
 
 var app = express();
+const PORT = process.env.port || 8080;
 
 app.get("/", function(req, res) {
 	//res.writeHead(200, {"Content-Type": "text/html"});
@@ -19,5 +20,5 @@ app.get("/:id", function(req, res) {
 
 });
 
-app.listen(8080);
-console.log("server listening on port 8080..");
+app.listen(PORT);
+console.log("Server listening on: " + PORT" + "..");
